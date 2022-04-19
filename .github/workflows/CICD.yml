@@ -29,8 +29,8 @@ jobs:
       - name: Docker build
         run: |
           docker build . \
-            --tag ${{ env.APP_NAME }}:${{ github.run_number }} \
-            --tag ${{ env.APP_NAME }}:latest
+            --tag jsadeli/${{ env.APP_NAME }}:${{ github.run_number }} \
+            --tag jsadeli/${{ env.APP_NAME }}:latest
 
   deploy:
     name: Deploy
