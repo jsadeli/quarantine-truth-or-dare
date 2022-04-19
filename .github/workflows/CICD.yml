@@ -23,7 +23,7 @@ jobs:
       - name: Install Node modules
         run: yarn install --frozen-lockfile
 
-      - name: Build
+      - name: Yarn build
         run: yarn build
 
       - name: Docker build
