@@ -10,7 +10,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      APP_NAME: Quarantine-Truth-or-Dare
+      APP_NAME: quarantine-truth-or-dare
     steps:
       - name: Checkout
         uses: actions/checkout@v3
